@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Мій сайт</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Мій перший сайт</h1>
+        <p>Зроблено через GitHub</p>
+    </header>
+
+    <main>
+        <button onclick="showMessage()">Натисни мене</button>
+        <p id="message"></p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
